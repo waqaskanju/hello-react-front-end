@@ -5,7 +5,7 @@ const GET_GREETING_SUCCESS = 'GET_GREETING_SUCCESS';
 const GET_GREETING_ERROR = 'GET_GREETING_ERROR';
 
 // Action Creators for greeting.
-const greetings= []
+const greetings = [];
 
 // on success
 const getGreetingsSuccess = () => ({
@@ -52,7 +52,7 @@ const reducer = (state = greetings, action) => {
   }
 };
 
-// exporting reducer, greeting , onsucess and on error 
+// exporting reducer, greeting , onsucess and on error
 export default reducer;
 export {
   getGreetingsSuccess,

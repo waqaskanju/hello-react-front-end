@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/configureStore';
-import Home from './components/Home';
+import Greeting from './components/Greeting';
 
 //  THe main app function.
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Provider store={store}>
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Greeting />} />
           </Routes>
         </Router>
       </Provider>
